@@ -15,32 +15,10 @@
     background-image: linear-gradient(transparent, transparent), linear-gradient(#FFF, #FFF)
 }
 .link-underline-black-footer {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000)
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#929090, #929090)
 }
 
 .link-underline:hover {
     background-size: 100% 3px;
     background-position: 0 100%
-}
-
-.slide-from-left {
-  transform: translateX(-100%);
-  animation: slideLeft 1s forwards;
-}
-
-.slide-from-right {
-  transform: translateX(100%);
-  animation: slideRight 1s forwards;
-}
-
-@keyframes slideLeft {
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideRight {
-  to {
-    transform: translateX(0);
-  }
 }
